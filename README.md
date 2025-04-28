@@ -1,28 +1,44 @@
-<div id="vscodium-logo" align="center">
+<div id="horus-logo" align="center">
     <br />
-    <img src="./icons/stable/codium_cnl.svg" alt="VSCodium Logo" width="200"/>
-    <h1>VSCodium</h1>
-    <h3>Free/Libre Open Source Software Binaries of VS Code</h3>
+    <img src="./icons/stable/horus.svg" alt="Horus Logo" width="200"/>
+    <h1>Horus</h1>
+    <h3>Free/Libre Open Source Software Binaries of VS Code with Eye of Horus Branding</h3>
 </div>
 
 <div id="badges" align="center">
 
-[![current release](https://img.shields.io/github/release/vscodium/vscodium.svg)](https://github.com/vscodium/vscodium/releases)
 [![license](https://img.shields.io/github/license/VSCodium/vscodium.svg)](https://github.com/VSCodium/vscodium/blob/master/LICENSE)
-[![Gitter](https://img.shields.io/gitter/room/vscodium/vscodium.svg)](https://gitter.im/VSCodium/Lobby)
-[![codium](https://snapcraft.io//codium/badge.svg)](https://snapcraft.io/codium)
-[![codium](https://snapcraft.io//codium/trending.svg?name=0)](https://snapcraft.io/codium)
-
-[![build status (linux)](https://img.shields.io/github/actions/workflow/status/VSCodium/vscodium/stable-linux.yml?branch=master&label=build%28linux%29)](https://github.com/VSCodium/vscodium/actions/workflows/stable-linux.yml?query=branch%3Amaster)
-[![build status (macos)](https://img.shields.io/github/actions/workflow/status/VSCodium/vscodium/stable-macos.yml?branch=master&label=build%28macOS%29)](https://github.com/VSCodium/vscodium/actions/workflows/stable-macos.yml?query=branch%3Amaster)
-[![build status (windows)](https://img.shields.io/github/actions/workflow/status/VSCodium/vscodium/stable-windows.yml?branch=master&label=build%28windows%29)](https://github.com/VSCodium/vscodium/actions/workflows/stable-windows.yml?query=branch%3Amaster)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 </div>
 
-**This is not a fork. This is a repository of scripts to automatically build [Microsoft's `vscode` repository](https://github.com/microsoft/vscode) into freely-licensed binaries with a community-driven default configuration.**
+**Horus is a customized build of VSCodium with Eye of Horus branding. This project maintains all the open-source benefits of VSCodium while adding a custom theme inspired by ancient Egyptian symbolism.**
+
+## The Eye of Horus Symbolism
+
+The Eye of Horus (or Wedjat) is an ancient Egyptian symbol of protection, royal power, and good health. In Egyptian mythology, the eye was torn out by Set during his conflict with Horus, then healed by Thoth (or in some versions, Hathor). The restored eye became a symbol of healing and wholeness.
+
+The Eye of Horus represents:
+- Protection against evil
+- Healing and restoration
+- Wholeness and completion
+- Royal power and divine sight
+- Mathematical precision and order
+
+Our custom icon features a simplified, elegant representation of the Eye of Horus in gold/amber on a black background, symbolizing clarity, focus, and insight - qualities essential for a good code editor.
+
+## Features
+
+- All the features of VSCodium/VS Code
+- Custom Eye of Horus branding and icons
+- Telemetry disabled by default
+- MIT-licensed binary distribution
+- Compatible with most VS Code extensions
 
 ## Table of Contents
 
+- [The Eye of Horus Symbolism](#the-eye-of-horus-symbolism)
+- [Features](#features)
 - [Download/Install](#download-install)
   - [Install with Brew](#install-with-brew)
   - [Install with Windows Package Manager (WinGet)](#install-with-winget)
@@ -133,7 +149,7 @@ Build instructions can be found [here](https://github.com/VSCodium/vscodium/blob
 
 ## <a id="why"></a>Why Does This Exist
 
-This repository contains build files to generate free release binaries of Microsoft's VS Code. When we speak of "free software", we're talking about freedom, not price.
+Horus is a customized build of VSCodium, which itself contains build files to generate free release binaries of Microsoft's VS Code. When we speak of "free software", we're talking about freedom, not price.
 
 Microsoft's releases of Visual Studio Code are licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contain telemetry/tracking. According to [this comment](https://github.com/Microsoft/vscode/issues/60#issuecomment-161792005) from a Visual Studio Code maintainer:
 
@@ -141,9 +157,14 @@ Microsoft's releases of Visual Studio Code are licensed under [this not-FLOSS li
 >
 > When you clone and build from the vscode repo, none of these endpoints are configured in the default product.json. Therefore, you generate a "clean" build, without the Microsoft customizations, which is by default licensed under the MIT license
 
-This repo exists so that you don't have to download+build from source. The build scripts in this repo clone Microsoft's vscode repo, run the build commands, and upload the resulting binaries to [GitHub releases](https://github.com/VSCodium/vscodium/releases). __These binaries are licensed under the MIT license. Telemetry is disabled.__
+Horus takes the VSCodium approach a step further by adding custom branding inspired by the Eye of Horus. The Eye of Horus symbolism was chosen for its representation of:
 
-If you want to build from source yourself, head over to [Microsoft's vscode repo](https://github.com/Microsoft/vscode) and follow their [instructions](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run). This repo exists to make it easier to get the latest version of MIT-licensed VS Code.
+1. **Protection** - Just as the Eye of Horus protected ancient Egyptians, our code editor protects your code with robust features
+2. **Clarity** - The all-seeing eye represents the clarity and insight that good development tools should provide
+3. **Restoration** - In mythology, the eye was restored after being damaged, symbolizing the debugging and error correction process
+4. **Mathematical precision** - The Eye of Horus was associated with mathematical concepts, fitting for a programming tool
+
+Like VSCodium, Horus binaries are licensed under the MIT license, and telemetry is disabled by default.
 
 Microsoft's build process (which we are running to build the binaries) does download additional files. Those packages downloaded during build are:
 
@@ -196,8 +217,16 @@ The minimal version is limited by the core component Electron, you may want to c
 
 <table>
   <tr>
+    <td>Ancient Egyptian Civilization</td>
+    <td>for the Eye of Horus symbolism that inspired our branding</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/jaredreich" target="_blank">@jaredreich</a></td>
-    <td>for the logo</td>
+    <td>for the original VSCodium logo</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/VSCodium/vscodium" target="_blank">VSCodium Team</a></td>
+    <td>for creating the open-source alternative to VS Code</td>
   </tr>
   <tr>
     <td><a href="https://github.com/PalinuroSec" target="_blank">@PalinuroSec</a></td>

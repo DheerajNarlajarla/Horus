@@ -1,4 +1,23 @@
 {
+  "nameShort": "Horus",
+  "nameLong": "Horus",
+  "applicationName": "horus",
+  "dataFolderName": ".horus",
+  "win32DirName": "Horus",
+  "win32NameVersion": "Horus",
+  "win32RegValueName": "Horus",
+  "win32AppUserModelId": "Horus.Horus",
+  "win32ShellNameShort": "Horus",
+  "win32MutexName": "horus",
+  "darwinBundleIdentifier": "com.horus",
+  "linuxIconName": "horus",
+  "icons": {
+    "application": {
+      "png": "./icons/stable/horus.png",
+      "icns": "./icons/stable/horus.icns",
+      "ico": "./icons/stable/horus.ico"
+    }
+  },
   "extensionAllowedBadgeProviders": [
     "api.bintray.com",
     "api.travis-ci.com",
